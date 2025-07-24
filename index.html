@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,8 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -49,22 +50,29 @@
 
   <!-- Hero Section -->
   <section id="home" class="flex items-center justify-center min-h-screen mx-6 my-6 about">
-  <div class="container mx-auto flex flex-col md:flex-row items-center justify-center">
-    <div class="md:w-5/12 px-6 text-center md:text-left">
-      <h1 class="ml11"><span class="text-wrapper"><span class="line line1"></span><span class="letters text-7xl font-semibold">Hello I am Yadhugovind C</span></span></h1>
-      
-      <p class="font-normal text-xl mt-6">Hi 👋 I'm a Full Stack Developer who thrives on building fast, user-friendly web apps and reliable backends with the MERN stack.</p>
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-center">
+      <div class="md:w-5/12 px-6 text-center md:text-left">
+        <h1 class="ml11"><span class="text-wrapper"><span class="line line1"></span><span
+              class="letters text-7xl font-semibold">Hello I am Yadhugovind C</span></span></h1>
 
-      <div class="mt-8 flex space-x-4 justify-center md:justify-start">
-        <a href="https://drive.google.com/file/d/1mW5sbaoaDlB6V5CzTlBMErCkMvQ6oiit/view?usp=sharing" target="_blank" class="px-6 py-3 bg-[#ff5252] text-white font-medium rounded-lg transition duration-300 hover:bg-[#ff3838] shadow-lg">Download CV</a>
-        <a href="#projects" class="px-6 py-3 bg-white text-[#ff5252] font-medium rounded-lg transition duration-300 hover:bg-gray-100 shadow-lg">View Projects</a>
+        <p class="font-normal text-xl mt-6">Hi 👋 I'm a Full Stack Developer who thrives on building fast, user-friendly
+          web apps and reliable backends with the MERN stack.</p>
+
+        <div class="mt-8 flex space-x-4 justify-center md:justify-start">
+          <a href="https://drive.google.com/file/d/1mW5sbaoaDlB6V5CzTlBMErCkMvQ6oiit/view?usp=sharing" target="_blank"
+            class="px-6 py-3 bg-[#ff5252] text-white font-medium rounded-lg transition duration-300 hover:bg-[#ff3838] shadow-lg">Download
+            CV</a>
+          <a href="#projects"
+            class="px-6 py-3 bg-white text-[#ff5252] font-medium rounded-lg transition duration-300 hover:bg-gray-100 shadow-lg">View
+            Projects</a>
+        </div>
+      </div>
+      <div class="md:w-6/12 flex justify-center items-center mt-10 md:mt-0">
+        <img src="./profile.jpg" class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-lg shadow-xl"
+          alt="Yadhu's profile picture">
       </div>
     </div>
-    <div class="md:w-6/12 flex justify-center items-center mt-10 md:mt-0">
-      <img src="./profile.jpg" class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-lg shadow-xl" alt="Yadhu's profile picture">
-    </div>
-  </div>
-</section>
+  </section>
 
   <!-- About Section -->
   <section id="about" class="py-16 bg-white bg-opacity-70">
@@ -72,15 +80,21 @@
       <h2 class="text-5xl font-bold text-center mb-12 section-heading">About Me</h2>
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0">
-          <img src="https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png" alt="About Me" class="rounded-lg shadow-xl mx-auto">
+          <img src="https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png" alt="About Me"
+            class="rounded-lg shadow-xl mx-auto">
         </div>
         <div class="md:w-1/2 md:pl-12">
-          
-          
-          <p class="text-xl mb-6">
-           Hello! I'm a passionate Full Stack Developer with a Master’s degree in Computer Applications (MCA), specializing in the MERN stack — MongoDB, Express.js, React, and Node.js. I enjoy building intuitive, responsive, and high-performance web applications that provide seamless user experiences.
 
-With strong expertise in both frontend and backend development, I focus on delivering robust, secure, and scalable solutions. I'm driven by a love for clean code, modern design principles, and continuous learning. Whether it’s creating interactive UIs or designing efficient APIs, I take pride in turning complex ideas into reliable digital products.
+
+          <p class="text-xl mb-6">
+            Hello! I'm a passionate Full Stack Developer with a Master’s degree in Computer Applications (MCA),
+            specializing in the MERN stack — MongoDB, Express.js, React, and Node.js. I enjoy building intuitive,
+            responsive, and high-performance web applications that provide seamless user experiences.
+
+            With strong expertise in both frontend and backend development, I focus on delivering robust, secure, and
+            scalable solutions. I'm driven by a love for clean code, modern design principles, and continuous learning.
+            Whether it’s creating interactive UIs or designing efficient APIs, I take pride in turning complex ideas
+            into reliable digital products.
           </p>
         </div>
       </div>
@@ -91,11 +105,11 @@ With strong expertise in both frontend and backend development, I focus on deliv
   <section id="skills" class="py-16">
     <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-5xl font-bold text-center mb-12 section-heading">Skills</h2>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div class="bg-white p-8 rounded-lg shadow-lg">
           <!-- <h3 class="text-2xl font-semibold mb-6">Technical Skills</h3> -->
-          
+
           <!-- HTML -->
           <div class="mb-6">
             <div class="flex justify-between mb-2">
@@ -106,7 +120,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 96%"></div>
             </div>
           </div>
-          
+
           <!-- CSS -->
           <div class="mb-6">
             <div class="flex justify-between mb-2">
@@ -117,7 +131,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 95%"></div>
             </div>
           </div>
-          
+
           <!-- JavaScript -->
           <div class="mb-6">
             <div class="flex justify-between mb-2">
@@ -128,7 +142,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 90%"></div>
             </div>
           </div>
-          
+
           <!-- React -->
           <div class="mb-6">
             <div class="flex justify-between mb-2">
@@ -139,7 +153,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 90%"></div>
             </div>
           </div>
-          
+
           <!-- Node.js -->
           <div>
             <div class="flex justify-between mb-2">
@@ -151,10 +165,10 @@ With strong expertise in both frontend and backend development, I focus on deliv
             </div>
           </div>
         </div>
-        
+
         <div class="bg-white p-8 rounded-lg shadow-lg">
           <!-- <h3 class="text-2xl font-semibold mb-6">Other Skills</h3> -->
-          
+
           <!-- UI/UX Design -->
           <div class="mb-6">
             <div class="flex justify-between mb-2">
@@ -165,7 +179,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 85%"></div>
             </div>
           </div>
-          
+
           <!-- Git & GitHub -->
           <div class="mb-6">
             <div class="flex justify-between mb-2">
@@ -176,7 +190,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 85%"></div>
             </div>
           </div>
-          
+
           <!-- Responsive Design -->
           <div class="mb-6">
             <div class="flex justify-between mb-2">
@@ -187,8 +201,8 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 85%"></div>
             </div>
           </div>
-        <!-- express -->
-        <div class="mb-6">
+          <!-- express -->
+          <div class="mb-6">
             <div class="flex justify-between mb-2">
               <span class="text-lg font-medium">ExpressJS</span>
               <span class="text-lg font-medium">75%</span>
@@ -197,7 +211,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 75%"></div>
             </div>
           </div>
-          
+
           <!-- TypeScript -->
           <div class="mb-6">
             <div class="flex justify-between mb-2">
@@ -208,7 +222,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
               <div class="progress-bar" style="width: 75%"></div>
             </div>
           </div>
-        
+
         </div>
       </div>
     </div>
@@ -218,98 +232,132 @@ With strong expertise in both frontend and backend development, I focus on deliv
   <section id="projects" class="py-16 bg-white bg-opacity-70">
     <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-5xl font-bold text-center mb-12 section-heading">My Projects</h2>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Project 1 -->
         <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card transition duration-300">
-          <img src="./mediaplayer.png" alt="E-commerce Platform" class="w-full h-48 ">
+          <img src="./Job_portal.png" alt="E-commerce Platform" class="w-full h-48 ">
           <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Media Player App</h3>
-            <p class="text-gray-700 mb-4">A dynamic and user-friendly web application designed for music enthusiasts. MusicVerse allows users to organize their favorite music videos into custom categories, track their watch history, and enjoy a tailored experience across diverse genres like pop, classical, indie, and more.</p>
+            <h3 class="text-2xl font-semibold mb-2">Job Portal</h3>
+            <p class="text-gray-700 mb-4"> Developed Job Connect, a full-stack job portal using the MERN stack (MongoDB,
+              Express.js, React.js, Node.js) with role-based modules for Job Seekers, Employers, and Super Admin.
+              Integrated JWT authentication, bcrypt for securepasswords, and Multer for resume uploads. Enabled job
+              posting and application tracking with statuses like Submitted, Viewed,Rejected, and Accepted, along with
+              the ability for users to edit applications before they’re viewed by employers. Implemented RBAC(Role-Based
+              Access Control) and a Super Admin dashboard for managing users, jobs, and applications.</p>
             <div class="flex flex-wrap gap-2 mb-4">
               <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">React</span>
-              <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">Bootstrap</span>
-              <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">Json Server</span>
+              <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">Nodejs</span>
+              <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">Expressjs</span>
+              <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">MongoDB</span>
             </div>
-            <!-- <div class="flex justify-between">
-              <a href="#" class="text-[#ff5252] font-medium hover:underline">View Demo</a>
-              <a href="#" class="text-[#ff5252] font-medium hover:underline">GitHub</a>
-            </div> -->
+            <div class="flex justify-between">
+              <a href="https://github.com/yadhugovindc/Job_Portal_MERN" target="_blank" class="text-[#ff5252] font-medium hover:underline">GitHub</a>
+            </div>
           </div>
         </div>
-        
+
         <!-- Project 2 -->
         <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card transition duration-300">
           <img src="./projectfair.png" alt="Dashboard UI" class="w-full h-48 ">
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-2">Project Fair</h3>
-            <p class="text-gray-700 mb-4">A space where users can showcase their personal or academic projects, browse others’ work, and leverage advanced search tools to discover, collaborate, and gain inspiration from a community of developers.</p>
+            <p class="text-gray-700 mb-4">This platform allows users to showcase their personal and academic projects,
+              explore others’ work, and
+              collaborate with developers. With advanced search tools, users can find relevant projects and connect with
+              like-minded
+              individuals. Built on the MERN stack, it offers scalability and a seamless user experience. </p>
             <div class="flex  gap-2 mb-4">
               <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">React</span>
               <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">Nodejs</span>
               <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">Expressjs</span>
               <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">MongoDB</span>
             </div>
-            
+             <div class="flex justify-between">
+              <a href="https://github.com/yadhugovindc/Project_fair_MERN" target="_blank" class="text-[#ff5252] font-medium hover:underline">GitHub</a>
+            </div>
+      
           </div>
         </div>
-        
+
         <!-- Project 3 -->
         <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card transition duration-300">
-          <img src="./ekart.png" alt="Ekart app" class="w-full h-48">
+          <img src="./Imdb.png" alt="Ekart app" class="w-full h-48">
           <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Ekart App</h3>
-            <p class="text-gray-700 mb-4"> sleek and responsive e-commerce platform designed for fast, intuitive online shopping. It features dynamic product listings, personalized wishlists, and seamless cart functionality—all wrapped in a modern UI.</p>
+            <h3 class="text-2xl font-semibold mb-2">IMDB Clone</h3>
+            <p class="text-gray-700 mb-4"> Developed a React-based movie browsing application that integrates with the
+              TMDB (The Movie Database)
+              API to display recent movie posters. Implemented features such as pagination, movie sorting (by rating),
+              and a favorite list
+              where users can select and manage their favorite movies(also genre based filtering favorite list). Focused
+              on clean UI design,
+              responsive layout, and efficient API handling to provide a smooth user experience. Tech Stack used React,
+              Axios, TMDB API,
+              HTML, CSS, JavaScript.</p>
             <div class="flex flex-wrap gap-2 mb-4">
               <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">React</span>
-  
+
               <span class="px-3 py-1 bg-[#ffeded] text-[#ff5252] rounded-full text-sm font-medium">Redux</span>
             </div>
-            
+            <div class="flex justify-between">       
+              <a href="https://github.com/yadhugovindc/IMDB_React_Clone" target="_blank" class="text-[#ff5252] font-medium hover:underline">GitHub</a>
+              <a href="https://imdbclone5675.netlify.app/" target="_blank" class="text-[#ff5252] font-medium hover:underline">View Demo</a>
+            </div>
+
           </div>
         </div>
-        
-    </div>
+
+      </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="py-16">
     <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-5xl font-bold text-center mb-12 section-heading">Get In Touch</h2>
-      
+
       <div class="flex flex-col md:flex-row gap-10">
         <div class="md:w-1/2">
           <div class="bg-white p-8 rounded-lg shadow-lg">
             <form>
               <div class="mb-6">
                 <label for="name" class="block text-lg font-medium mb-2">Name</label>
-                <input type="text" id="name" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff5252]" placeholder="Your Name">
+                <input type="text" id="name"
+                  class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff5252]"
+                  placeholder="Your Name">
               </div>
-              
+
               <div class="mb-6">
                 <label for="email" class="block text-lg font-medium mb-2">Email</label>
-                <input type="email" id="email" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff5252]" placeholder="Your Email">
+                <input type="email" id="email"
+                  class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff5252]"
+                  placeholder="Your Email">
               </div>
-              
+
               <div class="mb-6">
                 <label for="subject" class="block text-lg font-medium mb-2">Subject</label>
-                <input type="text" id="subject" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff5252]" placeholder="Subject">
+                <input type="text" id="subject"
+                  class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff5252]"
+                  placeholder="Subject">
               </div>
-              
+
               <div class="mb-6">
                 <label for="message" class="block text-lg font-medium mb-2">Message</label>
-                <textarea id="message" rows="5" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff5252]" placeholder="Your Message"></textarea>
+                <textarea id="message" rows="5"
+                  class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff5252]"
+                  placeholder="Your Message"></textarea>
               </div>
-              
-              <button type="submit" class="w-full px-6 py-3 bg-[#ff5252] text-white font-medium rounded-lg transition duration-300 hover:bg-[#ff3838] shadow-lg">Send Message</button>
+
+              <button type="submit"
+                class="w-full px-6 py-3 bg-[#ff5252] text-white font-medium rounded-lg transition duration-300 hover:bg-[#ff3838] shadow-lg">Send
+                Message</button>
             </form>
           </div>
         </div>
-        
+
         <div class="md:w-1/2">
           <div class="bg-white p-8 rounded-lg shadow-lg h-full">
             <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
-            
+
             <div class="flex items-start mb-6">
               <div class="text-[#ff5252] mr-4 mt-1">
                 <i class="fas fa-map-marker-alt text-2xl"></i>
@@ -319,7 +367,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
                 <p class="text-gray-700">Kochi,Kerala</p>
               </div>
             </div>
-            
+
             <div class="flex items-start mb-6">
               <div class="text-[#ff5252] mr-4 mt-1">
                 <i class="fas fa-envelope text-2xl"></i>
@@ -329,7 +377,7 @@ With strong expertise in both frontend and backend development, I focus on deliv
                 <p class="text-gray-700">yadhugovindc@gmail.com</p>
               </div>
             </div>
-            
+
             <div class="flex items-start mb-6">
               <div class="text-[#ff5252] mr-4 mt-1">
                 <i class="fas fa-phone text-2xl"></i>
@@ -339,18 +387,20 @@ With strong expertise in both frontend and backend development, I focus on deliv
                 <p class="text-gray-700">+91 9072 085145</p>
               </div>
             </div>
-            
-            
+
+
             <div class="mt-10">
               <h4 class="text-lg font-medium mb-4">Connect With Me</h4>
               <div class="flex space-x-4">
-                <a href="https://www.linkedin.com/in/yadhugovind-c/" class="w-10 h-10 rounded-full bg-[#ffeded] flex items-center justify-center text-[#ff5252] hover:bg-[#ff5252] hover:text-white transition duration-300">
+                <a href="https://www.linkedin.com/in/yadhugovind-c/"
+                  class="w-10 h-10 rounded-full bg-[#ffeded] flex items-center justify-center text-[#ff5252] hover:bg-[#ff5252] hover:text-white transition duration-300">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://github.com/yadhugovindc" class="w-10 h-10 rounded-full bg-[#ffeded] flex items-center justify-center text-[#ff5252] hover:bg-[#ff5252] hover:text-white transition duration-300">
+                <a href="https://github.com/yadhugovindc"
+                  class="w-10 h-10 rounded-full bg-[#ffeded] flex items-center justify-center text-[#ff5252] hover:bg-[#ff5252] hover:text-white transition duration-300">
                   <i class="fab fa-github"></i>
                 </a>
-                
+
               </div>
             </div>
           </div>
@@ -435,4 +485,5 @@ With strong expertise in both frontend and backend development, I focus on deliv
     });
   </script>
 </body>
+
 </html>
